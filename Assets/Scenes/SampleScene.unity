@@ -317,7 +317,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0.078687325, z: 0, w: 0.99689937}
-  m_LocalPosition: {x: -697.0598, y: 8.099879, z: -9.31726}
+  m_LocalPosition: {x: -738.54895, y: 14.199941, z: -9.995969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -564,7 +564,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!4 &1079473834
 Transform:
@@ -574,7 +574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079473830}
   m_LocalRotation: {x: 0.009628686, y: -0.0096277, z: -0.0014384562, w: 0.9999063}
-  m_LocalPosition: {x: -695.5109, y: 8.109939, z: 0.5587153}
+  m_LocalPosition: {x: -737, y: 14.21, z: -0.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -627,6 +627,7 @@ GameObject:
   - component: {fileID: 1531763897}
   - component: {fileID: 1531763896}
   - component: {fileID: 1531763899}
+  - component: {fileID: 1531763900}
   m_Layer: 0
   m_Name: Level Sprite Shape
   m_TagString: Untagged
@@ -909,7 +910,7 @@ EdgeCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
@@ -1180,6 +1181,24 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!252 &1531763900
+SurfaceEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531763895}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Speed: 20
+  m_SpeedVariation: 0
+  m_ForceScale: 0.1
+  m_UseContactForce: 0
+  m_UseFriction: 1
+  m_UseBounce: 1
 --- !u!1 &1945628088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1245,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.80306333, y: 1}
+    m_SensorSize: {x: 0.6344294, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1243,7 +1262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945628088}
   m_LocalRotation: {x: -0, y: 0.078687325, z: -0, w: 0.99689937}
-  m_LocalPosition: {x: -697.0598, y: 8.099879, z: -9.31726}
+  m_LocalPosition: {x: -738.54895, y: 14.199941, z: -9.995969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
